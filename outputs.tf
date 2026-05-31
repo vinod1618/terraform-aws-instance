@@ -6,6 +6,6 @@ output "public_ip"{
     value = "aws_instance.this.public_ip"
 }
 
-output "public_ip"{
+output "privare_ip"{
     value = "aws_instance.this.private_ip"
 }
